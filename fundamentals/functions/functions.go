@@ -6,11 +6,11 @@ func sum(a int, b int) int {
 	return a + b
 }
 
-func print_f(value int) {
+func printF(value int) {
 	fmt.Println(value)
 }
 
 func main() {
 	result := sum(1, 2)
-	print_f(result)
+	printF(result)
 }
